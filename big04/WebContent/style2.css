@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+.t1,.t2{
+	box-shadow: 5px 5px black;
+}
+.t1{
+	text-align:center;
+	width:100px;
+	height:25px;
+	background:#c0c0c0;
+	font:17px 궁서, bold;
+	color: white;
+}
+.t2{
+	width:200px;
+	color: white;
+	font: 17px 궁서, bold;
+	background: #808080;
+}
+#td1{
+	text-align : center;
+	font: 20px 궁서, bold;
+	padding: 5px;
+	background: black;
+	color: white;
+	border-radius: 20px;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	text-decoration: none;
+	color:white;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>취미 상황표</h2>
+	<hr>
+	<table border = "1" bordercolor = "red"><!-- 사각형 테두리 -->
+		<tr height="100" align="center"><!-- 행 생성 --><!-- 높이 설정 가능 --><!-- 정렬가능 -->
+			<td width="100" bgcolor="yellow">나는 글자</td><!-- 칸 --><!-- 길이 설정가능 -->
+			<td width="100" bgcolor="pink">나도 글자</td><!-- 칸 -->
+			<td width="100" bgcolor="lime">끝글자</td><!-- 칸 -->
+		</tr>
+		<tr><!-- 행 생성 -->
+			<td><img src=네이버로고.png width=100></td><!-- 칸 -->
+			<td>나도 글자</td><!-- 칸 -->
+			<td rowspan="2">끝글자</td><!-- 칸 --><!-- 2행3열과 3행3열을 병합 -->
+		</tr>
+		<tr><!-- 행 생성 -->
+			<td colspan="2">나는 글자</td><!-- 칸 --><!-- 3행1열과 3행2열 병합 -->
+		</tr>
+	</table>
+</body>
+</html>

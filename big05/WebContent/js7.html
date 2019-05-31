@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function call(){
+		input = parseInt(prompt("커피총가격"));
+		input2=parseInt(prompt("인원수"));
+		price= input/input2;
+		function call2(price){
+			if(price>=3000){
+				price= price-300;
+			}
+			alert("한 명당 "+price+"원 씩 내면 됩니다.");
+		}
+		call2(price);
+	}
+	call();
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function check(){
+		var data = document.querySelector("#id");
+		var datb = document.querySelector("#pw");
+		var datc = document.querySelector("#name");
+		var datd = document.querySelector("#tel");
+		//var data= document.getElementById("id");
+		var data2 = data.value;
+		var datb2 = datb.value;
+		var datc2 = datc.value;
+		var datd2 = datd.value;
+		if(data2.length>=5){
+			location.href = "js.jsp?id="+data2+"&pw="+datb2+"&name="+datc2+"&tel="+datd2;
+		}else{
+			alert("다시 입력해주세요");
+			location.href="js12.html";
+		}
+	}
+</script>
+</head>
+<body>
+<h1>회원가입</h1>
+아이디 : <input type="text" name="id" id="id"><br>
+패스워드 : <input type="text" name="pw" id="pw"><br>
+이름 : <input type="text" name="name" id="name"><br>
+전화번호 : <input type="text" name="tel" id="tel"><br>
+
+<button type ="button" onclick ="check()">회원가입</button>
+</body>
+</html>

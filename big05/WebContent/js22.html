@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+var adminId = "admin";
+var adminPw = "admin";
+var userId = "user";
+var userPw = "user";
+function f1(){
+	var id = document.querySelector("#id").value;
+	var pw = document.querySelector("#id").value;
+	
+	if(adminId==id&&adminPw==pw){
+		location.href="manager.html";
+	}else if(userId==id&&userPw==pw){
+		location.href="user.html";
+	}else{
+		alert("다시");
+	}
+}
+</script>
+</head>
+<body>
+ID : <input type = "text" id = "id">
+PW : <input type = "text" id = "pw">
+<button type="button" onClick="f1()">로그인</button>
+</body>
+</html>

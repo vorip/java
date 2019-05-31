@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var num1 = parseInt(prompt("숫자 1 입력 :"));
+	var num2 = parseInt(prompt("숫자 2 입력 :"));
+	//alert(confirm(의문문)) 결과값이 true false
+	
+	var sel = prompt("기호입력 : ")
+	if(sel=='+'){
+		plus(num1,num2);
+	}else if(sel=='-'){
+		minus(num1,num2);
+	}else if(sel=='*'){
+		gop(num1,num2);
+	}else if(sel=='/'){
+		devide(num1,num2);
+	}
+	function plus(){
+		var result =num1+num2;
+		document.write(result);
+	}
+	function minus(){
+		if(num1>num2){
+			var result = num1-num2;
+			document.write(result);
+		}else{
+			var result = num2-num1;
+			document.write(result);
+		}
+	}
+	function devide(){
+		if(num2!=0){
+			var result= num1/num2;
+			document.write(result);
+		}
+	}
+	function gop(){
+		var result =num1*num2;
+		document.write(result);
+	}
+	
+</script>
+</head>
+<body>
+	
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function func1(){
+		var name = document.querySelector("#name");
+		var tel = document.querySelector("#tel");
+		
+		var name1 = name.value;
+		var tel1 = tel.value;
+		
+		location.href="print.jsp?name="+name1+"&tel="+tel1;
+		alert("전송이 완료되었습니다.")
+	}
+</script>
+</head>
+<body>
+이름 : <input type="text" id="name">
+전화번호 : <input type="text" id="tel"><br>
+<button type="button" onClick="func1();">눌러서 전송</button>
+
+</body>
+</html>

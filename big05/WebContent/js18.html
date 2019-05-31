@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function func1(){
+		var name = document.querySelector("#name");
+		var weight = document.querySelector("#weight");
+		var height = document.querySelector("#height");
+		if((height-100)*0.9>=weight){
+			console.log(name.value+"님의 몸무게는 적정몸무게입니다.");
+		}else{
+			console.log(name.value+"님은 돼지입니다.");
+		}
+	}
+</script>
+</head>
+<body>
+이름 : <input type = "text" name="name" id="name">
+몸무게 : <input type ="text" name="weight" id="weight">
+키 : <input type="text" name="height" id="height">
+<button type = "button" onClick = "func1()">계산!</button>
+</body>
+</html>

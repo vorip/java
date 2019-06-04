@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+input {
+	width: 400px;
+	height: 30px;
+}
+#month {
+	height: 35px;
+	width: 110px;
+	
+}
+#year{
+	width: 160px;
+}
+#day{
+	width: 120px;
+}
+#gender{
+	width: 405px;
+	height: 35px;
+}
+#country{
+	width: 405px;
+	height: 35px;
+}
+</style>
+</head>
+<body>
+	<form action="member2.jsp">
+	<center>
+		<p>아이디</p>
+		<input type="text" name="id">
+		<p>비밀번호</p>
+		<input type="password" name="pw">
+		<p>비밀번호 재확인</p>
+		<input type="password" name="pw2">
+		<p>이름</p>
+		<input type="text" name="name">
+		<p>생년월일</p>
+		<input type="text" placeholder="년(4자)" name="year" id="year">
+		<select name="month" id="month">
+			<option value="월" selected>월</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select><input type="text" placeholder="일" name="day" id="day">
+		<p>성별</p>
+		<select name="gender" id="gender">
+			<option value="성별" selected>성별</option>
+			<option value="남자">남자</option>
+			<option value="여자">여자</option>
+		</select>
+		<p>본인 확인 이메일</p>
+		<input type="text" placeholder="선택입력" name="email">
+		<p>휴대전화</p>
+		<select name ="country" id="country">
+			<option value="default" selected>선택</option>
+			<option value="korea">대한민국 +82</option>
+		</select><br>
+		<input type="text" placeholder="전화번호 입력" name="tel"><br>
+		<input type="text" placeholder="인증번호 입력하세요" name="tel"><br>
+		<input type="submit" value="가입하기">
+</center>
+</form>
+</body>
+</html>

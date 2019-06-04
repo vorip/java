@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="main.css" type="text/css">
+<script type="text/javascript" src=sign.js></script>
+</head>
+<body>
+	<center>
+		<img width="200" height="150 id="logo" src="logo.png">
+		<hr>
+		<a href = "main.html">메인</a> | 
+		<a href = "buy.html">구매하기</a> | 
+		<a href = "sell.html">상품 정보</a> | 
+		<a href = "sign.html">회원가입</a><br><br>
+		<div id="content">
+			<form action="sign.js">
+				<table border="1" bordercolor="blue" align="center">
+					<tr>
+						<td height = "50" width = "100" class="t1">아이디</td>
+						<td height = "50" width = "300" class="t2"><input type="text"  name="id" id="id"></td>
+					</tr>
+					<tr>
+						<td height = "50" width = "100" class="t1">패스워드</td>
+						<td height = "50" width = "300" class="t2"><input type="text" name="pw" id="pw"></td>
+					</tr>
+					<tr>
+						<td height = "50" width = "100" class="t1">이름</td>
+						<td height = "50" width = "300" class="t2"><input type="text" name="name" id="name"></td>
+					</tr>
+					<tr>
+						<td height = "50" width = "100" class="t1">전화번호</td>
+						<td height = "50" width = "300" class="t2"><input type="text" name="tel" id="tel"></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="t3">
+						<center><input type="button" value="회원가입" onClick="sign()"></center>
+						</td>
+					</tr>
+				</table>
+				</form>
+		</div>
+		<div id="div1">
+			<ul >
+				<li><a class = "l1" href = "main.html">메인</a></li> 
+				<li><a class = "l1" href = "buy.html">구매하기</a></li> 
+				<li><a class = "l1" href = "sell.html">상품 정보</a></li> 
+				<li><a class = "l1" href = "sign.html">회원가입</a></li>
+			</ul>
+		</div>
+	</center>
+
+</body>
+</html>

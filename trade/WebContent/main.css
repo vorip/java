@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body{
+	background: yellow;
+	color: blue;
+}
+a{
+	color:green;
+	text-decoration: none;
+	font: 25px 궁서, bold;
+}
+a:hover{
+	color:black;
+	text-decoration: none;
+	font: 25px 궁서, bold;
+}
+#l1{
+	font-size: 28px;
+}
+p{
+	font: 20px 굴림;
+	padding: 0px;
+	margin: 0px
+}	
+#div1{
+	top: 110px;
+	right: 5px;
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	background: #c0c0c0;
+	color: yellow;
+	border-radius: 10px 10px 10px 10px;
+}
+.l1{
+	font-size: 18px;
+}
+.l1:hover{
+	font-size: 18px;
+}
+#div2{
+	
+	padding-top: 20px;
+	background: white;
+	width: 800px;
+	height: 1100px;
+	
+}
+.img{
+	width: 130px;
+	height: 130px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.text{
+	text-align: center;
+	font : 20px 궁서;
+}
+.id{
+	width: 300px;
+	height: 50px;
+}
